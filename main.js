@@ -63,6 +63,7 @@ const onStartTimer = () => {
     clearInterval(timerId);
     startButton.innerHTML = 'Start';
     setTimer(0);
+    totalSeconds = 0;
     timerIsRunning = false;
   } else {
     if (totalSeconds == 0) {
